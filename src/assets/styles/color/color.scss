@@ -6,8 +6,8 @@
     color: rgba(var(--nc-c-brand), var(--nc-c-alpha));
   }
 
-  .c-succes {
-    color: rgba(var(--nc-c-succes), var(--nc-c-alpha));
+  .c-success {
+    color: rgba(var(--nc-c-success), var(--nc-c-alpha));
   }
 
   .c-warning {
@@ -24,6 +24,10 @@
 
   .c-secondary {
     color: rgba(var(--nc-c-secondary), var(--nc-c-alpha));
+  }
+
+  .c-default {
+    color: rgba(var(--nc-c-default), var(--nc-c-alpha));
   }
 
   // BACKGROUND
@@ -43,7 +47,7 @@
     background-color: rgba(var(--nc-c-danger), var(--nc-c-alpha));
   }
 
-  .bg-text {
+  .bg-base {
     background-color: rgba(var(--nc-c-base), var(--nc-c-alpha));
   }
 

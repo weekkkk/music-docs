@@ -10,5 +10,17 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  base: '/music-docs'
 })
+
+// const {
+//   defineConfig
+// } = require('@vue/cli-service')
+// module.exports = defineConfig({
+//   transpileDependencies: true,
+//   publicPath: process.env.NODE_ENV === 'production'
+//     ? '/avstpmr/'
+//     : '/'
+
+// })
